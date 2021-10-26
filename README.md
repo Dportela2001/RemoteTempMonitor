@@ -4,9 +4,7 @@ Device for temperature monitoring, focused on beer manufacture
 
 
 ## Descripción no funcional 
-El dispositivo ser capaz de:
 
-- Medir y comunicar en tiempo real la temperatura del recipiente en que calienta la preparación de cerveza. 
 - Acoplarse adecuadamente al recipiente empleado.
 - Comunicarse de manera inalámbrica via Wifi o bluetooth. 
 - Tener una resolución de 1°C con incertidumbre de  0.5°C.
