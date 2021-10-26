@@ -1,5 +1,5 @@
 # RemoteTempMonitor
-Device for temperature monitoring, focused to beer manufacture
+Device for temperature monitoring, focused on beer manufacture
 
 ## Descripción funcional 
 
