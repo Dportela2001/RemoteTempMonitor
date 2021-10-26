@@ -17,7 +17,7 @@ Device for temperature monitoring, focused on beer manufacture
 
 - Medir temperatura.
 - Enviar la temperatura a un dispositivo móvil .
-- Configurar alarmas de temperatura.
+- Permitir la configuración de alarmas de temperatura.
 - Disparar alarmas. 
 - Mostrar temperatura en un display.
 
