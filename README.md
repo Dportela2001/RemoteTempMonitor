@@ -4,7 +4,7 @@ Device for temperature monitoring, focused on beer manufacture
 
 
 ## Descripción no funcional 
-El dispositivo debe como mínimo:
+El dispositivo ser capaz de:
 
 - Medir y comunicar en tiempo real la temperatura del recipiente en que calienta la preparación de cerveza. 
 - Acoplarse adecuadamente al recipiente empleado.
@@ -17,11 +17,11 @@ El dispositivo debe como mínimo:
 
 ## Descripción funcional 
 
-- Medir temperatura
-- Enviar la temperatura a un dispositivo móvil 
-- Configurar alarmas de temperatura
-- Disparar alarmas 
-- Mostrar temperatura en un display
+- Medir temperatura.
+- Enviar la temperatura a un dispositivo móvil .
+- Configurar alarmas de temperatura.
+- Disparar alarmas. 
+- Mostrar temperatura en un display.
 
 
 
