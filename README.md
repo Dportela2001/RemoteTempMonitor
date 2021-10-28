@@ -21,7 +21,7 @@ Device for temperature monitoring, focused on beer manufacture
 - Disparar alarmas. 
 - Mostrar temperatura en un display.
 
-##Diagrama de fases del proyecto:
+## Diagrama de fases del proyecto:
 ![DiagramaFases](Diagrama-Fases.png)
 
 
