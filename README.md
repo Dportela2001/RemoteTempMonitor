@@ -25,7 +25,7 @@ Device for temperature monitoring, focused on beer manufacture
 ![Fases](Diagrama-Fases.png)
 
 ## Diagrama de bloques de la solución
-
+![Bloques](BlockDiagram.png)
 
 ## Dispositivos a emplear
  - Sensor de temperatura DS18B20 con sonda de 2m.
