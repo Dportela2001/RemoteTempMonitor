@@ -42,7 +42,14 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
    * Precio: $714
    * Tienda: Sigma
    * Unidades: 4
- - Bocina.
+ - Bocina 8 Ohmios 0.25 W.
+   * Precio: $2.000
+   * Tienda: Mactrónica
+   * Unidades: 1
+ - Microcontrolador ESP32 superficial.
+   * Precio: $18.000
+   * Tienda: Mactrónica
+   * Unidades: 1
 
 
 
