@@ -31,8 +31,18 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 
 ## Dispositivos a emplear
  - Sensor de temperatura DS18B20 con sonda de 2m.
-   * precio: $16.660
- - 
+   * Precio: $16.660
+   * Tienda: Sigma
+   * Unidades: 1
+ - Pantalla oled de 1.3''.
+   * Precio: $24.000
+   * Tienda: Ferretrónica
+   * Unidades: 1
+ - Led RGB de introdución.
+   * Precio: $714
+   * Tienda: Sigma
+   * Unidades: 4
+ - Bocina.
 
 
 
