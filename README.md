@@ -1,5 +1,6 @@
 # RemoteTempMonitor
-Device for temperature monitoring, focused on beer manufacture
+Device for temperature monitoring, focused on beer manufacture.
+Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de cerveza. Se pretende que el dispositivo funcione como una herramienta de ayuda que pueda facilitar la toma de temperatura, y el subsecuente control de la misma en las fáses de calentamiento y enfriamiento del mosto.
 
 
 
