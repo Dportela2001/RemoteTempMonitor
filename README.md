@@ -28,7 +28,8 @@ Device for temperature monitoring, focused on beer manufacture
 
 
 ## Dispositivos a emplear
- - Sensor de temperatura DS18B20
+ - Sensor de temperatura DS18B20 con sonda de 2m.
+   * precio: $16.660
  - 
 
 
