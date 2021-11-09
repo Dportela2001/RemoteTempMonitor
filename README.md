@@ -50,7 +50,14 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
    * Precio: $18.000
    * Tienda: Mactrónica
    * Unidades: 1
-
+- Batería 18650 Recargable Litio Ion 8800 mAh
+   * Precio: $9.900
+   * Tienda: Mercado Libre
+   * unidades: 2
+- chip cargador inteligente bateria TP4056
+   * Precio: $2.142
+   * Tienda: Sigma
+   * unidades: 1
 
 
 
