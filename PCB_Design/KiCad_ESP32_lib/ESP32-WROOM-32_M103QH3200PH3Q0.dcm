@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-WROOM-32_M103QH3200PH3Q0_
+D ESP32-WROOM-32 generic Wi-Fi+BT+BLE MCU module
+K
+F https://th.mouser.com/datasheet/2/891/esp32-wroom-32_datasheet_en-1510934.pdf
+$ENDCMP
+#
+#End Doc Library
