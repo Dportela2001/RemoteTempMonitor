@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3700 2300 1200 850 
+S 2350 1700 1200 850 
 U 619FECCC
-F0 "Voltage Regulator" 50
-F1 "voltageRegulator.sch" 50
-F2 "Batt" I R 4900 2700 50 
+F0 "Battery Charge" 50
+F1 "batteryCharge.sch" 50
+F2 "Batt" I R 3550 2100 50 
 $EndSheet
 $EndSCHEMATC
