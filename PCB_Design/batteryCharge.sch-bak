@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5197 5197
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Circuito para cargar la bateria"
 Date ""
 Rev ""
@@ -173,9 +173,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 1545 3300 1545
 Wire Wire Line
-	3800 2065 3800 2545
+	3800 2065 3800 2890
 Wire Wire Line
-	3800 2545 3515 2545
+	3800 2890 3515 2890
 Wire Wire Line
 	4005 1545 3800 1545
 Wire Wire Line
@@ -209,4 +209,5 @@ Wire Wire Line
 	2700 2890 1140 2890
 Wire Wire Line
 	1140 2085 1140 2890
+Connection ~ 3515 2890
 $EndSCHEMATC

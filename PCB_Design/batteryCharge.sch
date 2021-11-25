@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5197 5197
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Circuito para cargar la bateria"
 Date ""
 Rev ""
