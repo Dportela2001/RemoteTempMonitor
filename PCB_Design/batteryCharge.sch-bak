@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5197 5197
 encoding utf-8
-Sheet 2 3
+Sheet 2 7
 Title "Circuito para cargar la bateria"
 Date ""
 Rev ""
@@ -110,10 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 1545 1470 1545
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0106
 U 1 1 61A1D31B
 P 1470 1120
-F 0 "#PWR?" H 1470 970 50  0001 C CNN
+F 0 "#PWR0106" H 1470 970 50  0001 C CNN
 F 1 "+5V" H 1485 1293 50  0000 C CNN
 F 2 "" H 1470 1120 50  0001 C CNN
 F 3 "" H 1470 1120 50  0001 C CNN
@@ -182,10 +182,10 @@ Wire Wire Line
 	3800 1545 3800 1550
 Connection ~ 3800 1545
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 61A13CA5
 P 2700 2935
-F 0 "#PWR?" H 2700 2685 50  0001 C CNN
+F 0 "#PWR0107" H 2700 2685 50  0001 C CNN
 F 1 "GND" H 2705 2762 50  0000 C CNN
 F 2 "" H 2700 2935 50  0001 C CNN
 F 3 "" H 2700 2935 50  0001 C CNN

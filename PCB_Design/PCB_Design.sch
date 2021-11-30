@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -13,21 +13,283 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	2200 1350 2700 1350
 $Sheet
-S 2350 1700 1200 850 
+S 1000 950  1200 850 
 U 619FECCC
 F0 "Battery Charge" 50
 F1 "batteryCharge.sch" 50
-F2 "Batt" I R 3550 2100 50 
+F2 "Batt" I R 2200 1350 50 
 $EndSheet
+$Comp
+L RF_Module:ESP32-WROOM-32 U1
+U 1 1 61A64564
+P 6050 3400
+F 0 "U1" H 5950 3650 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 5950 3550 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 6050 1900 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 5750 3450 50  0001 C CNN
+	1    6050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61A7545C
+P 6050 4800
+F 0 "#PWR0101" H 6050 4550 50  0001 C CNN
+F 1 "GND" H 6055 4627 50  0000 C CNN
+F 2 "" H 6050 4800 50  0001 C CNN
+F 3 "" H 6050 4800 50  0001 C CNN
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
 $Sheet
-S 4050 1700 1200 850 
+S 2700 950  1200 850 
 U 619FB45F
 F0 "Voltage Regulator" 50
 F1 "VoltageRegulator.sch" 50
-F2 "Batt" I L 4050 2100 50 
-F3 "3.34V" O R 5250 2100 50 
+F2 "Batt" I L 2700 1350 50 
+F3 "3.34V" O R 3900 1350 50 
+$EndSheet
+Text HLabel 4250 1350 2    50   Input ~ 0
+3.3v
+Wire Wire Line
+	3900 1350 4250 1350
+Text HLabel 6050 1800 1    50   Input ~ 0
+3.3v
+$Comp
+L Device:R Ren
+U 1 1 61A79C0C
+P 5450 1900
+F 0 "Ren" V 5350 1900 50  0000 C CNN
+F 1 "10k" V 5450 1900 50  0000 C CNN
+F 2 "" V 5380 1900 50  0001 C CNN
+F 3 "~" H 5450 1900 50  0001 C CNN
+	1    5450 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61A7C25A
+P 4900 2200
+F 0 "SW1" H 4900 2350 50  0000 C CNN
+F 1 "SW_Push" H 4900 2150 50  0000 C CNN
+F 2 "" H 4900 2400 50  0001 C CNN
+F 3 "~" H 4900 2400 50  0001 C CNN
+	1    4900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1800 6050 1900
+Wire Wire Line
+	5200 2200 5200 1900
+Wire Wire Line
+	5200 1900 5300 1900
+Wire Wire Line
+	5600 1900 6050 1900
+Connection ~ 6050 1900
+Wire Wire Line
+	6050 1900 6050 2000
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61A853CB
+P 7250 2200
+F 0 "SW2" H 7250 2350 50  0000 C CNN
+F 1 "SW_Push" H 7250 2150 50  0000 C CNN
+F 2 "" H 7250 2400 50  0001 C CNN
+F 3 "~" H 7250 2400 50  0001 C CNN
+	1    7250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61A9145D
+P 7550 2200
+F 0 "#PWR0102" H 7550 1950 50  0001 C CNN
+F 1 "GND" V 7555 2072 50  0000 R CNN
+F 2 "" H 7550 2200 50  0001 C CNN
+F 3 "" H 7550 2200 50  0001 C CNN
+	1    7550 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 2200 7550 2200
+$Comp
+L Device:LED D1
+U 1 1 61A92BD7
+P 6950 2900
+F 0 "D1" H 6943 2645 50  0000 C CNN
+F 1 "LED" H 6943 2736 50  0000 C CNN
+F 2 "" H 6950 2900 50  0001 C CNN
+F 3 "~" H 6950 2900 50  0001 C CNN
+	1    6950 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61AA10D3
+P 7350 2900
+F 0 "R1" V 7250 2900 50  0000 C CNN
+F 1 "47" V 7350 2900 50  0000 C CNN
+F 2 "" V 7280 2900 50  0001 C CNN
+F 3 "~" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61AA1C1E
+P 7650 2900
+F 0 "#PWR0103" H 7650 2650 50  0001 C CNN
+F 1 "GND" H 7655 2727 50  0000 C CNN
+F 2 "" H 7650 2900 50  0001 C CNN
+F 3 "" H 7650 2900 50  0001 C CNN
+	1    7650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2900 7200 2900
+Wire Wire Line
+	7500 2900 7650 2900
+Wire Wire Line
+	6650 2200 7050 2200
+Wire Wire Line
+	6650 2900 6800 2900
+$Comp
+L power:GND #PWR0104
+U 1 1 61AB247A
+P 8000 2250
+F 0 "#PWR0104" H 8000 2000 50  0001 C CNN
+F 1 "GND" H 8005 2077 50  0000 C CNN
+F 2 "" H 8000 2250 50  0001 C CNN
+F 3 "" H 8000 2250 50  0001 C CNN
+	1    8000 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2250 8100 2250
+Wire Wire Line
+	6850 2300 6850 2350
+Wire Wire Line
+	6850 2350 8100 2350
+Wire Wire Line
+	6650 2300 6850 2300
+Wire Wire Line
+	6650 2500 6850 2500
+Wire Wire Line
+	6850 2500 6850 2450
+Wire Wire Line
+	6850 2450 8100 2450
+Text HLabel 8000 2550 3    50   Input ~ 0
+3.3v
+Wire Wire Line
+	8000 2550 8100 2550
+NoConn ~ 8100 2150
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 61AAC0B7
+P 8300 2350
+F 0 "J?" H 8272 2282 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 8272 2373 50  0000 R CNN
+F 2 "" H 8300 2350 50  0001 C CNN
+F 3 "~" H 8300 2350 50  0001 C CNN
+	1    8300 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2200 5450 2200
+Wire Wire Line
+	5100 2200 5200 2200
+Connection ~ 5200 2200
+$Comp
+L power:GND #PWR0105
+U 1 1 61AE9D34
+P 4500 2200
+F 0 "#PWR0105" H 4500 1950 50  0001 C CNN
+F 1 "GND" H 4505 2027 50  0000 C CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2200 4700 2200
+$Sheet
+S 7850 5400 500  200 
+U 61B0DE61
+F0 "Button2 " 50
+F1 "Button.sch" 50
+F2 "3.3v" I R 8350 5500 50 
+F3 "Sw" O L 7850 5500 50 
+$EndSheet
+$Sheet
+S 7850 4550 500  200 
+U 61B0E45E
+F0 "Button4" 50
+F1 "Button.sch" 50
+F2 "3.3v" I R 8350 4650 50 
+F3 "Sw" O L 7850 4650 50 
 $EndSheet
 Wire Wire Line
-	3550 2100 4050 2100
+	6650 5900 6650 4500
+Wire Wire Line
+	7850 5900 6650 5900
+$Sheet
+S 7850 5800 500  200 
+U 61AF1821
+F0 "Button1" 50
+F1 "Button.sch" 50
+F2 "3.3v" I R 8350 5900 50 
+F3 "Sw" O L 7850 5900 50 
+$EndSheet
+Wire Wire Line
+	6650 4300 6850 4300
+Wire Wire Line
+	6850 4300 6850 5100
+Wire Wire Line
+	6650 4200 6950 4200
+Wire Wire Line
+	6950 4200 6950 4650
+Wire Wire Line
+	6950 4650 7850 4650
+Wire Wire Line
+	6850 5100 7850 5100
+$Sheet
+S 7850 5000 500  200 
+U 61B0D93C
+F0 "Button3" 50
+F1 "Button.sch" 50
+F2 "3.3v" I R 8350 5100 50 
+F3 "Sw" O L 7850 5100 50 
+$EndSheet
+Wire Wire Line
+	7850 5500 6750 5500
+Wire Wire Line
+	6750 5500 6750 4400
+Wire Wire Line
+	6750 4400 6650 4400
+Text HLabel 8950 5300 2    50   Input ~ 0
+3.3v
+Wire Wire Line
+	8350 4650 8800 4650
+Wire Wire Line
+	8800 4650 8800 5100
+Wire Wire Line
+	8800 5300 8950 5300
+Wire Wire Line
+	8350 5100 8800 5100
+Connection ~ 8800 5100
+Wire Wire Line
+	8800 5100 8800 5300
+Wire Wire Line
+	8350 5500 8800 5500
+Wire Wire Line
+	8800 5500 8800 5300
+Connection ~ 8800 5300
+Wire Wire Line
+	8800 5500 8800 5900
+Wire Wire Line
+	8800 5900 8350 5900
+Connection ~ 8800 5500
 $EndSCHEMATC
