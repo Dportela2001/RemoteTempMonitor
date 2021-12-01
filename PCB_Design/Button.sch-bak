@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5906 5906
 encoding utf-8
-Sheet 4 7
+Sheet 6 7
 Title "Debouncing circuit "
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/61AF1821/61AF23CF" Ref="SW1"  Part="1"
 AR Path="/61B0D93C/61AF23CF" Ref="SW3"  Part="1" 
 AR Path="/61B0DE61/61AF23CF" Ref="SW2"  Part="1" 
 AR Path="/61B0E45E/61AF23CF" Ref="SW4"  Part="1" 
-F 0 "SW2" V 2596 2602 50  0000 R CNN
+F 0 "SW1" V 2596 2602 50  0000 R CNN
 F 1 "SW_Push" V 2505 2602 50  0000 R CNN
 F 2 "" H 2550 2850 50  0001 C CNN
 F 3 "~" H 2550 2850 50  0001 C CNN
@@ -36,7 +36,7 @@ AR Path="/61AF1821/61AF40E8" Ref="Rd"  Part="1"
 AR Path="/61B0D93C/61AF40E8" Ref="Rd3"  Part="1" 
 AR Path="/61B0DE61/61AF40E8" Ref="Rd2"  Part="1" 
 AR Path="/61B0E45E/61AF40E8" Ref="Rd4"  Part="1" 
-F 0 "Rd2" V 2793 2450 50  0000 C CNN
+F 0 "Rd" V 2793 2450 50  0000 C CNN
 F 1 "1k" V 2884 2450 50  0000 C CNN
 F 2 "" V 2930 2450 50  0001 C CNN
 F 3 "~" H 3000 2450 50  0001 C CNN
@@ -44,14 +44,14 @@ F 3 "~" H 3000 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C Cd
+L Device:C Cd1
 U 1 1 61AF4C44
 P 3400 2650
-AR Path="/61AF1821/61AF4C44" Ref="Cd"  Part="1" 
+AR Path="/61AF1821/61AF4C44" Ref="Cd1"  Part="1" 
 AR Path="/61B0D93C/61AF4C44" Ref="Cd3"  Part="1" 
 AR Path="/61B0DE61/61AF4C44" Ref="Cd2"  Part="1" 
 AR Path="/61B0E45E/61AF4C44" Ref="Cd4"  Part="1" 
-F 0 "Cd2" H 3285 2604 50  0000 R CNN
+F 0 "Cd1" H 3285 2604 50  0000 R CNN
 F 1 "1u" H 3285 2695 50  0000 R CNN
 F 2 "" H 3438 2500 50  0001 C CNN
 F 3 "~" H 3400 2650 50  0001 C CNN
@@ -66,7 +66,7 @@ AR Path="/61AF1821/61AFF83B" Ref="Rpd"  Part="1"
 AR Path="/61B0D93C/61AFF83B" Ref="Rpd3"  Part="1" 
 AR Path="/61B0DE61/61AFF83B" Ref="Rpd2"  Part="1" 
 AR Path="/61B0E45E/61AFF83B" Ref="Rpd4"  Part="1" 
-F 0 "Rpd2" H 2480 2104 50  0000 R CNN
+F 0 "Rpd" H 2480 2104 50  0000 R CNN
 F 1 "10k" H 2480 2195 50  0000 R CNN
 F 2 "" V 2480 2150 50  0001 C CNN
 F 3 "~" H 2550 2150 50  0001 C CNN

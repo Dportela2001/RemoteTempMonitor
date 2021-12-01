@@ -24,7 +24,7 @@ F 3 "" H 3425 3225 50  0001 C CNN
 	1    3425 3225
 	1    0    0    -1  
 $EndComp
-Text HLabel 1125 2075 0    50   Input ~ 0
+Text HLabel 850  2075 0    50   Input ~ 0
 Batt
 $Comp
 L Device:C Steve
@@ -74,10 +74,10 @@ F 3 "~" H 2025 2625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED FlagLED
+L Device:LED FlagLED_R
 U 1 1 61A2093A
 P 2025 2275
-F 0 "FlagLED" H 2175 2375 50  0000 R CNN
+F 0 "FlagLED_R" H 2175 2375 50  0000 R CNN
 F 1 "LED" V 1973 2157 50  0001 R CNN
 F 2 "" H 2025 2275 50  0001 C CNN
 F 3 "~" H 2025 2275 50  0001 C CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	2025 2825 2525 2825
 Wire Wire Line
-	1125 2075 1525 2075
+	850  2075 950  2075
 Wire Wire Line
 	1525 2075 1525 2475
 Wire Wire Line
@@ -219,4 +219,17 @@ Wire Wire Line
 Connection ~ 4525 2075
 Text HLabel 4925 2075 2    50   Output ~ 0
 3.34V
+$Comp
+L Switch:SW_Push SW_ONOFF
+U 1 1 61C32C50
+P 1150 2075
+F 0 "SW_ONOFF" H 1150 2360 50  0000 C CNN
+F 1 "SW_Push" H 1150 2269 50  0000 C CNN
+F 2 "" H 1150 2275 50  0001 C CNN
+F 3 "~" H 1150 2275 50  0001 C CNN
+	1    1150 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2075 1525 2075
 $EndSCHEMATC
