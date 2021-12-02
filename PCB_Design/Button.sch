@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5906 5906
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title "Debouncing circuit "
 Date ""
 Rev ""
@@ -14,31 +14,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push BT1
 U 1 1 61AF23CF
 P 2550 2650
-AR Path="/61AF1821/61AF23CF" Ref="SW1"  Part="1" 
-AR Path="/61B0D93C/61AF23CF" Ref="SW3"  Part="1" 
-AR Path="/61B0DE61/61AF23CF" Ref="SW2"  Part="1" 
-AR Path="/61B0E45E/61AF23CF" Ref="SW4"  Part="1" 
-F 0 "SW1" V 2596 2602 50  0000 R CNN
+AR Path="/61AF1821/61AF23CF" Ref="BT1"  Part="1" 
+AR Path="/61B0D93C/61AF23CF" Ref="BT3"  Part="1" 
+AR Path="/61B0DE61/61AF23CF" Ref="BT2"  Part="1" 
+AR Path="/61B0E45E/61AF23CF" Ref="BT4"  Part="1" 
+F 0 "BT3" V 2596 2602 50  0000 R CNN
 F 1 "SW_Push" V 2505 2602 50  0000 R CNN
-F 2 "" H 2550 2850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H9.5mm" H 2550 2850 50  0001 C CNN
 F 3 "~" H 2550 2850 50  0001 C CNN
 	1    2550 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R Rd
+L Device:R Rd1
 U 1 1 61AF40E8
 P 3000 2450
-AR Path="/61AF1821/61AF40E8" Ref="Rd"  Part="1" 
+AR Path="/61AF1821/61AF40E8" Ref="Rd1"  Part="1" 
 AR Path="/61B0D93C/61AF40E8" Ref="Rd3"  Part="1" 
 AR Path="/61B0DE61/61AF40E8" Ref="Rd2"  Part="1" 
 AR Path="/61B0E45E/61AF40E8" Ref="Rd4"  Part="1" 
-F 0 "Rd" V 2793 2450 50  0000 C CNN
+F 0 "Rd3" V 2793 2450 50  0000 C CNN
 F 1 "1k" V 2884 2450 50  0000 C CNN
-F 2 "" V 2930 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 2450 50  0001 C CNN
 F 3 "~" H 3000 2450 50  0001 C CNN
 	1    3000 2450
 	0    1    1    0   
@@ -51,24 +51,24 @@ AR Path="/61AF1821/61AF4C44" Ref="Cd1"  Part="1"
 AR Path="/61B0D93C/61AF4C44" Ref="Cd3"  Part="1" 
 AR Path="/61B0DE61/61AF4C44" Ref="Cd2"  Part="1" 
 AR Path="/61B0E45E/61AF4C44" Ref="Cd4"  Part="1" 
-F 0 "Cd1" H 3285 2604 50  0000 R CNN
+F 0 "Cd3" H 3285 2604 50  0000 R CNN
 F 1 "1u" H 3285 2695 50  0000 R CNN
-F 2 "" H 3438 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.4" H 3438 2500 50  0001 C CNN
 F 3 "~" H 3400 2650 50  0001 C CNN
 	1    3400 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R Rpd
+L Device:R Rpd1
 U 1 1 61AFF83B
 P 2550 2150
-AR Path="/61AF1821/61AFF83B" Ref="Rpd"  Part="1" 
+AR Path="/61AF1821/61AFF83B" Ref="Rpd1"  Part="1" 
 AR Path="/61B0D93C/61AFF83B" Ref="Rpd3"  Part="1" 
 AR Path="/61B0DE61/61AFF83B" Ref="Rpd2"  Part="1" 
 AR Path="/61B0E45E/61AFF83B" Ref="Rpd4"  Part="1" 
-F 0 "Rpd" H 2480 2104 50  0000 R CNN
+F 0 "Rpd3" H 2480 2104 50  0000 R CNN
 F 1 "10k" H 2480 2195 50  0000 R CNN
-F 2 "" V 2480 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 2150 50  0001 C CNN
 F 3 "~" H 2550 2150 50  0001 C CNN
 	1    2550 2150
 	-1   0    0    1   
