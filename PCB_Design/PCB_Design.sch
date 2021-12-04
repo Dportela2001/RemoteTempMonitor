@@ -143,17 +143,6 @@ Wire Wire Line
 	3195 2405 3345 2405
 Text HLabel 4580 1450 1    50   Input ~ 0
 3.3v
-$Comp
-L Connector:Conn_01x05_Male Conn_Prog1
-U 1 1 61AAC0B7
-P 4845 1905
-F 0 "Conn_Prog1" H 4817 1837 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 4817 1928 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 4845 1905 50  0001 C CNN
-F 3 "~" H 4845 1905 50  0001 C CNN
-	1    4845 1905
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1745 1705 1995 1705
 Wire Wire Line
@@ -574,4 +563,15 @@ Wire Wire Line
 Connection ~ 7480 1440
 Wire Wire Line
 	7480 1440 7200 1440
+$Comp
+L Connector:Conn_01x05_Female Conn_prog1
+U 1 1 61AC4E61
+P 4845 1905
+F 0 "Conn_prog1" H 4873 1931 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 4873 1840 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 4845 1905 50  0001 C CNN
+F 3 "~" H 4845 1905 50  0001 C CNN
+	1    4845 1905
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
