@@ -21,7 +21,7 @@ F1 "batteryCharge.sch" 50
 F2 "Batt" I L 9510 1440 50 
 $EndSheet
 $Comp
-L RF_Module:ESP32-WROOM-32 U1
+L PCB_Design-rescue:ESP32-WROOM-32-RF_Module U1
 U 1 1 61A64564
 P 2595 2905
 F 0 "U1" H 2495 3155 50  0000 C CNN
