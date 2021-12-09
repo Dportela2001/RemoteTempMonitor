@@ -203,7 +203,7 @@ U 1 1 61A9EBD4
 P 5205 3305
 F 0 "Conn_OLED1" H 5233 3281 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 5233 3190 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5205 3305 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 5205 3305 50  0001 C CNN
 F 3 "~" H 5205 3305 50  0001 C CNN
 	1    5205 3305
 	1    0    0    1   
@@ -225,7 +225,7 @@ U 1 1 61B269DE
 P 5205 3855
 F 0 "Conn_I2C1" H 5233 3881 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 5233 3790 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 5205 3855 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 5205 3855 50  0001 C CNN
 F 3 "~" H 5205 3855 50  0001 C CNN
 	1    5205 3855
 	1    0    0    -1  
@@ -569,7 +569,7 @@ U 1 1 61AC4E61
 P 4845 1905
 F 0 "Conn_prog1" H 4873 1931 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 4873 1840 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" H 4845 1905 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left" H 4845 1905 50  0001 C CNN
 F 3 "~" H 4845 1905 50  0001 C CNN
 	1    4845 1905
 	1    0    0    -1  
