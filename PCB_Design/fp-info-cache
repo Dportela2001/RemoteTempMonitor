@@ -1,4 +1,4 @@
-19216206927597994
+19406280001245994
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44316,13 +44316,6 @@ connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
 0
 4
 4
-Connector_USB
-632723300011
-632723300011
-Connector
-0
-32
-32
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)

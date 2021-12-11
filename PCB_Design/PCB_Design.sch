@@ -486,27 +486,9 @@ Wire Wire Line
 Wire Wire Line
 	3815 3305 3815 4365
 Wire Wire Line
-	3195 3105 3995 3105
-Wire Wire Line
-	5005 3205 3905 3205
-Wire Wire Line
 	4770 3305 5005 3305
 Wire Wire Line
 	4775 3440 4775 3405
-Wire Wire Line
-	5005 3955 3905 3955
-Wire Wire Line
-	3905 3955 3905 3205
-Connection ~ 3905 3205
-Wire Wire Line
-	3905 3205 3195 3205
-Wire Wire Line
-	5005 3855 3995 3855
-Wire Wire Line
-	3995 3855 3995 3105
-Connection ~ 3995 3105
-Wire Wire Line
-	3995 3105 5005 3105
 Wire Wire Line
 	5005 3755 4965 3755
 Wire Wire Line
@@ -519,7 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2705 5775 2705
 Wire Wire Line
-	5775 2705 5775 2660
+	5775 2705 5775 2704
 Wire Wire Line
 	5775 2360 5775 2330
 Wire Wire Line
@@ -527,9 +509,6 @@ Wire Wire Line
 Connection ~ 6250 2330
 Wire Wire Line
 	6250 2330 6250 2405
-Wire Wire Line
-	5775 2705 3195 2705
-Connection ~ 5775 2705
 NoConn ~ 4645 2105
 Wire Wire Line
 	4580 1705 4645 1705
@@ -574,4 +553,31 @@ F 3 "~" H 4845 1905 50  0001 C CNN
 	1    4845 1905
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3195 3205 4346 3205
+Wire Wire Line
+	3195 3105 4200 3105
+Wire Wire Line
+	5005 3855 4346 3855
+Wire Wire Line
+	4346 3855 4346 3205
+Connection ~ 4346 3205
+Wire Wire Line
+	4346 3205 5005 3205
+Wire Wire Line
+	4200 3105 4200 3955
+Wire Wire Line
+	4200 3955 5005 3955
+Connection ~ 4200 3105
+Wire Wire Line
+	4200 3105 5005 3105
+Wire Wire Line
+	3195 2605 3415 2605
+Wire Wire Line
+	3415 2605 3415 2704
+Wire Wire Line
+	3415 2704 5775 2704
+Connection ~ 5775 2704
+Wire Wire Line
+	5775 2704 5775 2660
 $EndSCHEMATC
