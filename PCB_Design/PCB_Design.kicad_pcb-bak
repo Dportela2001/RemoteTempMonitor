@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 4)
     (tracks 385)
     (zones 0)
     (modules 54)
@@ -2736,18 +2736,6 @@
   (gr_line (start 61.214 90.7415) (end 158.8135 90.7415) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 61.214 157.1625) (end 61.214 90.7415) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 158.8135 157.1625) (end 61.214 157.1625) (layer Edge.Cuts) (width 0.1))
-  (dimension 1.2 (width 0.15) (layer Dwgs.User)
-    (gr_text "1.200 mm" (at 61.79 134.859999) (layer Dwgs.User) (tstamp 61B5E1E4)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (feature1 (pts (xy 61.19 132.52) (xy 61.19 134.14642)))
-    (feature2 (pts (xy 62.39 132.52) (xy 62.39 134.14642)))
-    (crossbar (pts (xy 62.39 133.559999) (xy 61.19 133.559999)))
-    (arrow1a (pts (xy 61.19 133.559999) (xy 62.316504 132.973578)))
-    (arrow1b (pts (xy 61.19 133.559999) (xy 62.316504 134.14642)))
-    (arrow2a (pts (xy 62.39 133.559999) (xy 61.263496 132.973578)))
-    (arrow2b (pts (xy 62.39 133.559999) (xy 61.263496 134.14642)))
-  )
 
   (segment (start 138.1125 99.822) (end 138.176 99.8855) (width 0.6) (layer F.Cu) (net 1))
   (segment (start 134.8445 99.822) (end 138.1125 99.822) (width 0.6) (layer F.Cu) (net 1))
