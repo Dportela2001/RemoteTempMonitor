@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 5906 5906
 encoding utf-8
-Sheet 5 7
+Sheet 6 7
 Title "Debouncing circuit "
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/61AF1821/61AF23CF" Ref="BT1"  Part="1"
 AR Path="/61B0D93C/61AF23CF" Ref="BT3"  Part="1" 
 AR Path="/61B0DE61/61AF23CF" Ref="BT2"  Part="1" 
 AR Path="/61B0E45E/61AF23CF" Ref="BT4"  Part="1" 
-F 0 "BT4" V 2596 2602 50  0000 R CNN
+F 0 "BT3" V 2596 2602 50  0000 R CNN
 F 1 "SW_Push" V 2505 2602 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2550 2850 50  0001 C CNN
 F 3 "~" H 2550 2850 50  0001 C CNN
@@ -36,7 +36,7 @@ AR Path="/61AF1821/61AF40E8" Ref="Rd1"  Part="1"
 AR Path="/61B0D93C/61AF40E8" Ref="Rd3"  Part="1" 
 AR Path="/61B0DE61/61AF40E8" Ref="Rd2"  Part="1" 
 AR Path="/61B0E45E/61AF40E8" Ref="Rd4"  Part="1" 
-F 0 "Rd4" V 2793 2450 50  0000 C CNN
+F 0 "Rd3" V 2793 2450 50  0000 C CNN
 F 1 "1k" V 2884 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 2450 50  0001 C CNN
 F 3 "~" H 3000 2450 50  0001 C CNN
@@ -51,7 +51,7 @@ AR Path="/61AF1821/61AF4C44" Ref="Cd1"  Part="1"
 AR Path="/61B0D93C/61AF4C44" Ref="Cd3"  Part="1" 
 AR Path="/61B0DE61/61AF4C44" Ref="Cd2"  Part="1" 
 AR Path="/61B0E45E/61AF4C44" Ref="Cd4"  Part="1" 
-F 0 "Cd4" H 3285 2604 50  0000 R CNN
+F 0 "Cd3" H 3285 2604 50  0000 R CNN
 F 1 "1u" H 3285 2695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3438 2500 50  0001 C CNN
 F 3 "~" H 3400 2650 50  0001 C CNN
@@ -66,7 +66,7 @@ AR Path="/61AF1821/61AFF83B" Ref="Rpd1"  Part="1"
 AR Path="/61B0D93C/61AFF83B" Ref="Rpd3"  Part="1" 
 AR Path="/61B0DE61/61AFF83B" Ref="Rpd2"  Part="1" 
 AR Path="/61B0E45E/61AFF83B" Ref="Rpd4"  Part="1" 
-F 0 "Rpd4" H 2480 2104 50  0000 R CNN
+F 0 "Rpd3" H 2480 2104 50  0000 R CNN
 F 1 "10k" H 2480 2195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 2150 50  0001 C CNN
 F 3 "~" H 2550 2150 50  0001 C CNN

@@ -73,7 +73,7 @@ U 1 1 61A7C25A
 P 1445 1705
 F 0 "SW1" H 1445 1855 50  0000 C CNN
 F 1 "SW_Push" H 1445 1655 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 1445 1905 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1445 1905 50  0001 C CNN
 F 3 "~" H 1445 1905 50  0001 C CNN
 	1    1445 1705
 	1    0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 61A853CB
 P 3795 1705
 F 0 "SW2" H 3795 1855 50  0000 C CNN
 F 1 "SW_Push" H 3795 1655 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 3795 1905 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3795 1905 50  0001 C CNN
 F 3 "~" H 3795 1905 50  0001 C CNN
 	1    3795 1705
 	1    0    0    -1  
@@ -220,17 +220,6 @@ F 3 "" H 4775 3440 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female Conn_I2C1
-U 1 1 61B269DE
-P 5205 3855
-F 0 "Conn_I2C1" H 5233 3881 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5233 3790 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 5205 3855 50  0001 C CNN
-F 3 "~" H 5205 3855 50  0001 C CNN
-	1    5205 3855
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 61B29741
 P 5040 4685
@@ -277,7 +266,7 @@ $EndComp
 Wire Wire Line
 	7480 1840 7480 1945
 $Comp
-L Device:LED_RGBC D1
+L PCB_Design-rescue:LED_RGBC-Device D1
 U 1 1 61B93938
 P 4740 4565
 F 0 "D1" H 4740 4098 50  0000 C CNN
@@ -486,11 +475,11 @@ Wire Wire Line
 Wire Wire Line
 	3815 3305 3815 4365
 Wire Wire Line
-	4770 3305 5005 3305
+	4770 3305 5000 3305
 Wire Wire Line
 	4775 3440 4775 3405
 Wire Wire Line
-	5005 3755 4965 3755
+	5005 3755 5000 3755
 Wire Wire Line
 	4965 3755 4965 3405
 Wire Wire Line
@@ -558,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	3195 3105 4200 3105
 Wire Wire Line
-	5005 3855 4346 3855
+	5005 3855 5000 3855
 Wire Wire Line
 	4346 3855 4346 3205
 Connection ~ 4346 3205
@@ -567,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3105 4200 3955
 Wire Wire Line
-	4200 3955 5005 3955
+	4200 3955 5000 3955
 Connection ~ 4200 3105
 Wire Wire Line
 	4200 3105 5005 3105
@@ -580,4 +569,71 @@ Wire Wire Line
 Connection ~ 5775 2704
 Wire Wire Line
 	5775 2704 5775 2660
+NoConn ~ 1995 3405
+NoConn ~ 1995 3305
+NoConn ~ 1995 3205
+NoConn ~ 1995 3105
+NoConn ~ 1995 3005
+NoConn ~ 1995 2905
+NoConn ~ 1995 2005
+NoConn ~ 1995 1905
+NoConn ~ 3195 2005
+NoConn ~ 3195 2105
+NoConn ~ 3195 2205
+NoConn ~ 3195 2505
+NoConn ~ 3195 2705
+NoConn ~ 3195 2805
+NoConn ~ 3195 2905
+NoConn ~ 3195 3005
+$Comp
+L Device:C C_bypass1
+U 1 1 61BEC39E
+P 2985 1405
+F 0 "C_bypass1" V 2733 1405 50  0000 C CNN
+F 1 "100pF" V 2824 1405 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3023 1255 50  0001 C CNN
+F 3 "~" H 2985 1405 50  0001 C CNN
+	1    2985 1405
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 61BECE85
+P 3240 1405
+F 0 "#PWR0126" H 3240 1155 50  0001 C CNN
+F 1 "GND" H 3245 1232 50  0000 C CNN
+F 2 "" H 3240 1405 50  0001 C CNN
+F 3 "" H 3240 1405 50  0001 C CNN
+	1    3240 1405
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2835 1405 2595 1405
+Wire Wire Line
+	3240 1405 3135 1405
+$Comp
+L Connector:Conn_01x04_Female Conn_I2C1
+U 1 1 61C17C1F
+P 5200 3855
+F 0 "Conn_I2C1" H 5228 3831 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5228 3740 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 5200 3855 50  0001 C CNN
+F 3 "~" H 5200 3855 50  0001 C CNN
+	1    5200 3855
+	1    0    0    1   
+$EndComp
+Connection ~ 5000 3955
+Wire Wire Line
+	5000 3955 5005 3955
+Connection ~ 5000 3855
+Wire Wire Line
+	5000 3855 4346 3855
+Connection ~ 5000 3755
+Wire Wire Line
+	5000 3755 4965 3755
+Wire Wire Line
+	5000 3655 5000 3305
+Connection ~ 5000 3305
+Wire Wire Line
+	5000 3305 5005 3305
 $EndSCHEMATC
