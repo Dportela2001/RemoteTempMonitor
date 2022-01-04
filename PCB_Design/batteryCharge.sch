@@ -229,131 +229,39 @@ Wire Wire Line
 	4535 4160 3945 4160
 Connection ~ 3945 4160
 $Comp
-L PCB_Design-rescue:632723300011-632723300011 J2
-U 1 1 61D27D8A
-P 4830 770
-AR Path="/61D27D8A" Ref="J2"  Part="1" 
-AR Path="/619FECCC/61D27D8A" Ref="J2"  Part="1" 
-F 0 "J2" V 5375 105 50  0000 L CNN
-F 1 "632723300011" V 5485 -230 50  0000 L CNN
-F 2 "Connector_USB:632723300011" H 5980 870 50  0001 L CNN
-F 3 "http://katalog.we-online.de/em/datasheet/632723x00011.pdf" H 5980 770 50  0001 L CNN
-F 4 "USB Connectors WR-COM USB3.1 Type C SuperSpeed+ Rcpt" H 5980 670 50  0001 L CNN "Description"
-F 5 "2" H 5980 570 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 5980 470 50  0001 L CNN "Manufacturer_Name"
-F 7 "632723300011" H 5980 370 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "710-632723300011" H 5980 270 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/632723300011?qs=NK6InXoXhq4%252B5eM1PePLPg%3D%3D" H 5980 170 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5980 70  50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5980 -30 50  0001 L CNN "Arrow Price/Stock"
-	1    4830 770 
-	0    1    1    0   
+L Connector:USB_B_Micro J2
+U 1 1 61D5126A
+P 1365 1560
+F 0 "J2" V 998 1503 50  0000 C CNN
+F 1 "USB_B_Micro" V 1089 1503 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1515 1510 50  0001 C CNN
+F 3 "~" H 1515 1510 50  0001 C CNN
+	1    1365 1560
+	0    -1   1    0   
 $EndComp
-NoConn ~ 4730 2070
-NoConn ~ 4630 2070
-NoConn ~ 4330 2070
-NoConn ~ 4230 2070
-NoConn ~ 4030 2070
-NoConn ~ 3930 2070
-NoConn ~ 3830 2070
-NoConn ~ 3730 2070
-NoConn ~ 3530 2070
-NoConn ~ 3430 2070
-NoConn ~ 3330 770 
-NoConn ~ 3430 770 
-NoConn ~ 3530 770 
-NoConn ~ 3630 770 
-NoConn ~ 3830 770 
-NoConn ~ 3930 770 
-NoConn ~ 4130 770 
-NoConn ~ 4230 770 
-NoConn ~ 4330 770 
-NoConn ~ 4430 770 
-NoConn ~ 4530 770 
-NoConn ~ 4630 770 
+Wire Wire Line
+	1165 1860 1165 2815
+NoConn ~ 1365 1860
+NoConn ~ 1465 1860
+NoConn ~ 1565 1860
 $Comp
 L power:GND #PWR0123
-U 1 1 61D348B7
-P 3330 2235
-F 0 "#PWR0123" H 3330 1985 50  0001 C CNN
-F 1 "GND" H 3335 2062 50  0000 C CNN
-F 2 "" H 3330 2235 50  0001 C CNN
-F 3 "" H 3330 2235 50  0001 C CNN
-	1    3330 2235
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 61D35F5F
-P 4530 2205
-F 0 "#PWR0124" H 4530 1955 50  0001 C CNN
-F 1 "GND" H 4535 2032 50  0000 C CNN
-F 2 "" H 4530 2205 50  0001 C CNN
-F 3 "" H 4530 2205 50  0001 C CNN
-	1    4530 2205
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 61D3637C
-P 5240 725
-F 0 "#PWR0125" H 5240 475 50  0001 C CNN
-F 1 "GND" H 5245 552 50  0000 C CNN
-F 2 "" H 5240 725 50  0001 C CNN
-F 3 "" H 5240 725 50  0001 C CNN
-	1    5240 725 
+U 1 1 61D5A238
+P 1920 1710
+F 0 "#PWR0123" H 1920 1460 50  0001 C CNN
+F 1 "GND" H 1925 1537 50  0000 C CNN
+F 2 "" H 1920 1710 50  0001 C CNN
+F 3 "" H 1920 1710 50  0001 C CNN
+	1    1920 1710
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4530 2070 4530 2120
+	1920 1460 1765 1460
 Wire Wire Line
-	4430 2120 4430 2070
+	1765 1560 1920 1560
 Wire Wire Line
-	4430 2120 4530 2120
-Connection ~ 4530 2120
+	1920 1460 1920 1560
+Connection ~ 1920 1560
 Wire Wire Line
-	4530 2120 4530 2205
-Wire Wire Line
-	3330 2070 3330 2235
-Wire Wire Line
-	4730 770  4730 630 
-Wire Wire Line
-	4730 630  4830 630 
-Wire Wire Line
-	5240 630  5240 725 
-Wire Wire Line
-	4830 770  4830 630 
-Connection ~ 4830 630 
-Wire Wire Line
-	4830 630  5240 630 
-Wire Wire Line
-	4830 2070 4830 2580
-Wire Wire Line
-	4830 2580 4130 2580
-Wire Wire Line
-	1165 2580 1165 2815
-Wire Wire Line
-	4130 2070 4130 2580
-Connection ~ 4130 2580
-Wire Wire Line
-	4130 2580 3630 2580
-Wire Wire Line
-	3630 2070 3630 2580
-Connection ~ 3630 2580
-Wire Wire Line
-	3630 2580 2935 2580
-Wire Wire Line
-	2935 605  2935 2580
-Wire Wire Line
-	3730 770  3730 605 
-Wire Wire Line
-	3730 605  2935 605 
-Wire Wire Line
-	4030 770  4030 630 
-Wire Wire Line
-	4030 630  4730 630 
-Connection ~ 4730 630 
-Connection ~ 2935 2580
-Wire Wire Line
-	2935 2580 1165 2580
+	1920 1560 1920 1710
 $EndSCHEMATC

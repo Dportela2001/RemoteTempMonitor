@@ -220,17 +220,6 @@ F 3 "" H 4775 3440 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female Conn_I2C1
-U 1 1 61B269DE
-P 5205 3855
-F 0 "Conn_I2C1" H 5233 3881 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5233 3790 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 5205 3855 50  0001 C CNN
-F 3 "~" H 5205 3855 50  0001 C CNN
-	1    5205 3855
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 61B29741
 P 5040 4685
@@ -486,11 +475,11 @@ Wire Wire Line
 Wire Wire Line
 	3815 3305 3815 4365
 Wire Wire Line
-	4770 3305 5005 3305
+	4770 3305 5000 3305
 Wire Wire Line
 	4775 3440 4775 3405
 Wire Wire Line
-	5005 3755 4965 3755
+	5005 3755 5000 3755
 Wire Wire Line
 	4965 3755 4965 3405
 Wire Wire Line
@@ -558,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	3195 3105 4200 3105
 Wire Wire Line
-	5005 3855 4346 3855
+	5005 3855 5000 3855
 Wire Wire Line
 	4346 3855 4346 3205
 Connection ~ 4346 3205
@@ -567,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3105 4200 3955
 Wire Wire Line
-	4200 3955 5005 3955
+	4200 3955 5000 3955
 Connection ~ 4200 3105
 Wire Wire Line
 	4200 3105 5005 3105
@@ -622,4 +611,29 @@ Wire Wire Line
 	2835 1405 2595 1405
 Wire Wire Line
 	3240 1405 3135 1405
+$Comp
+L Connector:Conn_01x04_Female Conn_I2C1
+U 1 1 61C17C1F
+P 5200 3855
+F 0 "Conn_I2C1" H 5228 3831 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5228 3740 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 5200 3855 50  0001 C CNN
+F 3 "~" H 5200 3855 50  0001 C CNN
+	1    5200 3855
+	1    0    0    1   
+$EndComp
+Connection ~ 5000 3955
+Wire Wire Line
+	5000 3955 5005 3955
+Connection ~ 5000 3855
+Wire Wire Line
+	5000 3855 4346 3855
+Connection ~ 5000 3755
+Wire Wire Line
+	5000 3755 4965 3755
+Wire Wire Line
+	5000 3655 5000 3305
+Connection ~ 5000 3305
+Wire Wire Line
+	5000 3305 5005 3305
 $EndSCHEMATC
