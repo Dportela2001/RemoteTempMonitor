@@ -30,6 +30,7 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 ![Bloques](BlockDiagram.png)
 
 ## Dispositivos a emplear
+A continuación se ve una lista resumida de los elementos más importantes a utilizar, con sus respectivos precios, cantidad y tienda sugerida, para una lista más detallada de todos los componentes puede ver el excel **Lista_componentes.xlsx**
  - Sensor de temperatura DS18B20 con sonda de 2m.
    * Precio: $16.660
    * Tienda: Sigma
@@ -59,5 +60,6 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
    * Tienda: Sigma
    * unidades: 1
 
-
+## Más detalles
+Para más detalles del proyecto, vaya a cada una de las carpetas del proyecto y ahí verá información de lo que existe en cada carpeta.
 
