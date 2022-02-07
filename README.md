@@ -73,7 +73,7 @@ Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los t
 - Led de indicación de carga completa.
 - Rejilla para el buzzer.
 
-El resultado del diseño se encuentra en la sección **Box-Design**, donde se encuentran tanto los archivos generados en formatos .pdf y .svg (archivo de gráficos escalables), como el archivo original para ser abierto en el programa CorelDraw:
+El resultado del diseño se encuentra en la sección **Box-Design**, donde se encuentran tanto los archivos generados en formatos .pdf y .svg (archivo de gráficos escalables), como el archivo original para ser abierto en el programa CorelDraw. La previsualización resulta:
 ![disenoFianl](Caja-DisenoFinal.jpeg)
 
 ## Más detalles
