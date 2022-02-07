@@ -66,12 +66,12 @@ Para el diseño se emplearon las medidas tomadas directamente del diseño obteni
 ![diseno](disenoPCB.png)
 Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los tamaños reales de la plata. Se tienen en cuenta elementos que deben ser visibles al usuario como:
 
--Pantalla de interacción.
--Botonera.
--Puerto de carga USB.
--Led de indicación de bateria baja.
--Led de indicación de carga completa.
--Rejilla para el buzzer.
+- Pantalla de interacción.
+- Botonera.
+- Puerto de carga USB.
+- Led de indicación de bateria baja.
+- Led de indicación de carga completa.
+- Rejilla para el buzzer.
 
 
 ## Más detalles
