@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Termómetro cervecero</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="textoH1">Termómetro Cervecero
+            <img src="Imagenes/cervezaimg.png" alt="cerveza" height="50px" id="figuras">
+        </h1>
+    </div>
+    <div id="datos">
+        <div id="fase">
+            <h2>Fase actual<img src="Imagenes/fase.png" alt="fase" height="50px" id="figuras2"></h2>
+            <h2 class="numero" id="nfase">00</h2>
+        </div>
+        <div id="tiempo">
+                <h2>Tiempo restante<img src="Imagenes/reloj.png" alt="reloj" height="50px" id="figuras2"></h2>
+            <h2 class="numero" id="ntiempo">00</h2>
+        </div>    
+    </div>
+    <div id="temp">
+        <h2>Temperatura actual <img src="Imagenes/termometro.png" alt="termometro" height="50px" id="figuras2"></h2>
+        <h2 class="numero" id="ntemp">00</h2>
+    </div>
+    <div id="header">
+        <h1 id="textoH1">Configuración
+            <img src="Imagenes/ajustes.png" alt="cerveza" height="50px" id="figuras">
+        </h1>
+    </div>
+    <div id="bloqueConfig">
+        <table id="filacong">
+            <tr >
+                <td>
+                    <h2 id="textoconfig">Activar alerta Sonora</h2>
+                </td>
+                <td>
+                    <input type="checkbox" class="boton" id="alertaS">
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <h2 id="textoconfig">Activar alerta de temperatura</h2>
+                </td>
+                <td>
+                    <input type="checkbox" class="boton" id="alertaT">
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <h2 id="textoconfig">Encender/Apagar Pantalla</h2>
+                </td>
+                <td>
+                    <input type="checkbox" class="boton" id="pantalla">
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <h2 id="textoconfig">Colocar Alarma</h2>
+                </td>
+                <td id="owo">
+                    <input type="number" class="alarma" min="1" max="60" placeholder="Horas">
+                    <input type="number" class="alarma" min="1" max="60" placeholder="Minutos">
+                    <input type="number" class="alarma" min="1" max="60" placeholder="Segundos">
+                    <input type="submit" class="botonsubmit">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="main.js">
+    </script>
+</body>
+</html>
