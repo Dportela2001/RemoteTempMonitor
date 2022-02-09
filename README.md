@@ -37,7 +37,7 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
 ## Zona de potencia
 Como todo circuito electrónico, se requiere de una fuente de potencia para el funcionamiento del mismo. Para esto se planteó fos bloques principales, uno para la regulación de voltage que llega a la ESP32 y sus periféricos, y un bloque de carga para las baterías que alimentan el conjunto. Dichos bloques son:
 
-<img src="Imagenes/alimentacion-regulacion.png" width="600" margin="auto">
+<img src="Imagenes/alimentacion-regulacion.jpg" width="600" margin="auto">
 
 ## Diseño de caja 
 
