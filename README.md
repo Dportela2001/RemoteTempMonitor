@@ -44,13 +44,13 @@ Como todo circuito electrónico, se requiere de una fuente de potencia para el f
 ## Regulador de Voltaje
 Dado que la tensión que entregan las baterías de Litio es de 4.2V, es necesario agregar el integrado MIC37303YME, que permite entregar la tensión deseada de 3.3v a la entrada de la ESP32. El esquemático empleado es el siguiente:
 
-<img src="Imagenes/Regulador-Voltaje.jpg" width="600" margin="auto">
+<img src="Imagenes/Regulador-Voltaje.png" width="600" margin="auto">
 
 ## Cargador de Baterías 
 
 Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando para que el sistema funcione. Por ello se agregó el integrado TP4056 con el circuito de la imagen, para realizar esta operación y así mismo proveer de leds guía de cargado y descargado.
 
-<img src="Imagenes/Cargador-Bateria.jpg" width="600" margin="auto">
+<img src="Imagenes/Cargador-Bateria.png" width="600" margin="auto">
 
 ## Diseño de caja 
 
