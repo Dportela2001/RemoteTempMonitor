@@ -56,6 +56,8 @@ El resultado del diseño se encuentra en la sección **Box-Design**, donde se en
 ## Dispositivo resultante 
 
 Después de realizar la soldadura de los elementos en el circuito impreso, se añadieron así mismo los periféricos como la pantalla OLED, el Buzzer y la sonda de temperatura. El dispositivo físico final es el que se ve a continuación:
+<img src="ImagenProducto.jpeg" width="600" margin ="auto">
+
 
 ## Más detalles
 Para más detalles del proyecto, vaya a cada una de las carpetas del proyecto y ahí verá información de lo que existe en cada carpeta.
