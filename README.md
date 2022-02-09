@@ -53,7 +53,7 @@ El resultado del diseño se encuentra en la sección **Box-Design**, donde se en
 <img src="Caja-DisenoFinal.jpeg" width="600" margin ="auto">
 
 
-##Dispositivo resultante 
+## Dispositivo resultante 
 
 Después de realizar la soldadura de los elementos en el circuito impreso, se añadieron así mismo los periféricos 
 
