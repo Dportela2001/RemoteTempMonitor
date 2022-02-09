@@ -50,6 +50,8 @@ Dado que la tensión que entregan las baterías de Litio es de 4.2V, es necesari
 
 Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando para que el sistema funcione. Por ello se agregó el integrado TP4056 con el circuito de la imagen, para realizar esta operación y así mismo proveer de leds guía de cargado y descargado.
 
+<img src="Imagenes/Cargador-Bateria.jpg" width="600" margin="auto">
+
 ## Diseño de caja 
 
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
