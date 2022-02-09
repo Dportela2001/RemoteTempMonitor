@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temp_datas",
+  "info": {
+    "singularName": "temp-data",
+    "pluralName": "temp-datas",
+    "displayName": "temp-data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "temperature": {
+      "type": "float",
+      "required": true
+    },
+    "minutes": {
+      "type": "integer",
+      "required": true
+    },
+    "state": {
+      "type": "integer",
+      "required": true,
+      "max": 6,
+      "min": 0
+    }
+  }
+}

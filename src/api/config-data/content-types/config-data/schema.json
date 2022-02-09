@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_datas",
+  "info": {
+    "singularName": "config-data",
+    "pluralName": "config-datas",
+    "displayName": "config-data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "screen_on": {
+      "type": "boolean"
+    },
+    "sound_on": {
+      "type": "boolean"
+    },
+    "signal_on": {
+      "type": "boolean"
+    }
+  }
+}
