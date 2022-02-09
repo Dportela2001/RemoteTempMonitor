@@ -1,84 +1,57 @@
-# RemoteTempMonitor
-Device for temperature monitoring, focused on beer manufacture.
+# 🚀 Getting started with Strapi
 
-Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de cerveza. Se pretende que el dispositivo funcione como una herramienta de ayuda que pueda facilitar la toma de temperatura, y el subsecuente control de la misma en las fáses de calentamiento y enfriamiento del mosto.
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+### `develop`
 
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-## Descripción no funcional 
+```
+npm run develop
+# or
+yarn develop
+```
 
-- Acoplarse adecuadamente al recipiente empleado.
-- Comunicarse de manera inalámbrica via Wifi o bluetooth. 
-- Tener una resolución de 1°C con incertidumbre de  0.5°C.
-- Medir temperaturas entre: 0ºC a 120ºC. 
-- Establecer conexiones a mínimo 10 m de distancia.
-- Tener un tiempo de comunicación de 15s.
+### `start`
 
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-## Descripción funcional 
+```
+npm run start
+# or
+yarn start
+```
 
-- Medir temperatura.
-- Enviar la temperatura a un dispositivo móvil .
-- Permitir la configuración de alarmas de temperatura.
-- Disparar alarmas. 
-- Mostrar temperatura en un display.
+### `build`
 
-## Fases de la utilización del producto:
-![Fases](Diagrama-Fases.png)
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-## Diagrama de bloques de la solución
-![Bloques](BlockDiagram.png)
+```
+npm run build
+# or
+yarn build
+```
 
-## Dispositivos a emplear
-A continuación se ve una lista resumida de los elementos más importantes a utilizar, con sus respectivos precios, cantidad y tienda sugerida, para una lista más detallada de todos los componentes puede ver el excel **Lista_componentes.xlsx**
- - Sensor de temperatura DS18B20 con sonda de 2m.
-   * Precio: $16.660
-   * Tienda: Sigma
-   * Unidades: 1
- - Pantalla oled de 1.3''.
-   * Precio: $24.000
-   * Tienda: Ferretrónica
-   * Unidades: 1
- - Led RGB de introdución.
-   * Precio: $714
-   * Tienda: Sigma
-   * Unidades: 4
- - Bocina 8 Ohmios 0.25 W.
-   * Precio: $2.000
-   * Tienda: Mactrónica
-   * Unidades: 1
- - Microcontrolador ESP32 superficial.
-   * Precio: $18.000
-   * Tienda: Mactrónica
-   * Unidades: 1
-- Batería 18650 Recargable Litio Ion 8800 mAh
-   * Precio: $9.900
-   * Tienda: Mercado Libre
-   * unidades: 2
-- chip cargador inteligente bateria TP4056
-   * Precio: $2.142
-   * Tienda: Sigma
-   * unidades: 1
+## ⚙️ Deployment
 
-## Diseño de caja 
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
-Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
-Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
+## 📚 Learn more
 
-![diseno](disenoPCB.png)
-Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los tamaños reales de la plata. Se tienen en cuenta elementos que deben ser visibles al usuario como:
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
-- Pantalla de interacción.
-- Botonera.
-- Puerto de carga USB.
-- Led de indicación de bateria baja.
-- Led de indicación de carga completa.
-- Rejilla para el buzzer.
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
 
-El resultado del diseño se encuentra en la sección **Box-Design**, donde se encuentran tanto los archivos generados en formatos .pdf y .svg (archivo de gráficos escalables), como el archivo original para ser abierto en el programa CorelDraw. La previsualización resulta:
+## ✨ Community
 
-![disenoFianl](Caja-DisenoFinal.jpeg)
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
-## Más detalles
-Para más detalles del proyecto, vaya a cada una de las carpetas del proyecto y ahí verá información de lo que existe en cada carpeta.
+---
 
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>

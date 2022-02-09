@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MIC37303YME
-D LDO Voltage Regulators 3A, Low Voltage uCap LDO Regulator
-F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en581526
-$ENDCMP
-#
-#End Doc Library
