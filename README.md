@@ -37,6 +37,7 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
 Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
 
+<img src="disenoPCB.png" width="200">
 ![diseno](disenoPCB.png =100x10)
 Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los tamaños reales de la plata. Se tienen en cuenta elementos que deben ser visibles al usuario como:
 
