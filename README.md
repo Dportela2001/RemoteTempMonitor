@@ -52,6 +52,10 @@ Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando par
 
 <img src="Imagenes/Cargador-Bateria.png" width="600" margin="auto">
 
+Para conveniencia del usuario, se decidió agregar un conector tipo micro-usb B como conector para realizar la carga del dispositivo. Además cuando el dispositivo está sin carga se indicará con un led rojo como se observa a continuación:
+
+
+
 ## Diseño de caja 
 
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
