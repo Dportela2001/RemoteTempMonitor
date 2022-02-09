@@ -24,9 +24,11 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 - Mostrar temperatura en un display.
 
 ## Fases de la utilización del producto:
+
 ![Fases](Imagenes/Diagrama-Fases.png)
 
 ## Diagrama de bloques de la solución
+
 ![Bloques](Imagenes/BlockDiagram.png)
 
 ## Dispositivos a emplear
@@ -38,6 +40,15 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
 Como todo circuito electrónico, se requiere de una fuente de potencia para el funcionamiento del mismo. Para esto se planteó fos bloques principales, uno para la regulación de voltage que llega a la ESP32 y sus periféricos, y un bloque de carga para las baterías que alimentan el conjunto. Dichos bloques son:
 
 <img src="Imagenes/alimentacion-regulacion.jpg" width="600" margin="auto">
+
+## Regulador de Voltaje
+Dado que la tensión que entregan las baterías de Litio es de 4.2V, es necesario agregar el integrado MIC37303YME, que permite entregar la tensión deseada de 3.3v a la entrada de la ESP32. El esquemático empleado es el siguiente:
+
+<img src="Imagenes/Regulador-Voltaje.jpg" width="600" margin="auto">
+
+## Cargador de Baterías 
+
+Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando para que el sistema funcione. Por ello se agregó el integrado TP4056 con el circuito de la imagen, para realizar esta operación y así mismo proveer de leds guía de cargado y descargado.
 
 ## Diseño de caja 
 
