@@ -50,7 +50,7 @@ Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los t
 
 El resultado del diseño se encuentra en la sección **Box-Design**, donde se encuentran tanto los archivos generados en formatos .pdf y .svg (archivo de gráficos escalables), como el archivo original para ser abierto en el programa CorelDraw. La previsualización resulta:
 
-<img src="disenoPCB.png" width="600" margin ="auto">
+<img src="Caja-DisenoFinal.jpeg" width="600" margin ="auto">
 
 
 ##Dispositivo resultante 
