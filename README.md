@@ -61,6 +61,7 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
    * unidades: 1
 
 ## Diseño de caja 
+
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
 Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
 
