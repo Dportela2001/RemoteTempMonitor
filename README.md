@@ -24,10 +24,10 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 - Mostrar temperatura en un display.
 
 ## Fases de la utilización del producto:
-![Fases](Diagrama-Fases.png)
+![Fases](Imagenes/Diagrama-Fases.png)
 
 ## Diagrama de bloques de la solución
-![Bloques](BlockDiagram.png)
+![Bloques](Imagenes/BlockDiagram.png)
 
 ## Dispositivos a emplear
 A continuación se ve una lista resumida de los elementos más importantes a utilizar, con sus respectivos precios, cantidad y tienda sugerida, para una lista más detallada de todos los componentes puede ver el excel **Lista_componentes.xlsx**.
@@ -37,7 +37,7 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
 ## Zona de potencia
 Como todo circuito electrónico, se requiere de una fuente de potencia para el funcionamiento del mismo. Para esto se planteó fos bloques principales, uno para la regulación de voltage que llega a la ESP32 y sus periféricos, y un bloque de carga para las baterías que alimentan el conjunto. Dichos bloques son:
 
-<img src="alimentacion-regulacion.png" width="600" margin="auto">
+<img src="Imagenes/alimentacion-regulacion.png" width="600" margin="auto">
 
 ## Diseño de caja 
 
