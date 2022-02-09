@@ -38,7 +38,7 @@ Con el fin de realizar un empaquetado para el termómetro, se realizó el diseñ
 Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
 
 <img src="disenoPCB.png" width="600" margin="auto">
-![diseno](disenoPCB.png =100x10)
+
 Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los tamaños reales de la plata. Se tienen en cuenta elementos que deben ser visibles al usuario como:
 
 - Pantalla de interacción.
