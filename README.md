@@ -93,7 +93,7 @@ Para poder programar el microprocesador ESP32 se optó por usar el lenguaje **Mi
 - SH1106 (librería para controlar la pantalla OLED, extraida de: https://github.com/robert-hh/SH1106)
 - DS18B20 (librería para controlar la sonda de temperatura, ya presente en Micropython)
 
-Para ver en detalle el código empleado para el funcionamiento del termómetro se puede revisar la carpeta **Software/Micropython** en la rama principal.
+Para ver en detalle el código empleado para el funcionamiento del termómetro se puede revisar la carpeta **Micropython** en la rama principal.
 
 ## Diseño de caja 
 
