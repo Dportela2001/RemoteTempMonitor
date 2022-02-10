@@ -85,7 +85,7 @@ Es posible entonces realizar el diseño de la PCB y el ruteo de los caminos  par
 <img src="Imagenes/Placa-disenio.png" height="400" margin="auto">
 </p>
 
-## [Software del dispositivo](/Micropython):snake: 
+# [Software del dispositivo](/Micropython):snake: 
 
 Para poder programar el microprocesador ESP32 se optó por usar el lenguaje **MicroPython**, por su facilidad de sintaxis, versatilidad y cantidad de librerias disponibles para facilitar el proceso de codificación. Algunas de las librerías empleadas son:
 
