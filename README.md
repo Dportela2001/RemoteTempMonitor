@@ -157,3 +157,9 @@ El layout de los botones y demás periféricos del dispositivo es:
 
 - Una correcta planeación de los objetivos del proyecto permite la delimitación del mismo, haciendo que su realización sea más posible.
 - El diseño PCB para un sistema embebido requiere de diversas consideraciones, tanto físicas y de funcionamiento como de estandares de producción, para que puedan llegar a ser producidas sin problemas. Estas consideraciones incluyen temas como tamaños de vías, anchos de pista, tamaños de los taladros, grosor del FR4, etc.
+
+## Errores cometidos durante el desarrollo
+- Al momento de colocar los pines para colocar la pantalla OLED en el diseño de la placa, se cometió el error de invertir el orden de los pines GND y VDC dado que nos guiamos por la imagen que colocaba el vendedor en su pagina, que era distinta al producto vendido. Esto produjo que la primera parantalla empleada se quemara ya que estaba conectada de manera incorrecta, por lo que fue necesario conseguir otra de estas y realizar una reconexión de manera externa con los sockets para los pines de la pantalla.
+- Los tiempos de manufactura de la placa no fueron los adecuados, por lo que fue imposible el solicitar fabricar las PCB en una empreza extrangera China como JLCPCB, PCBWAY, etc. Esto causo que fuera necesario re inventar la placa para no usar vias entre capas, dado que las empresas locales que prestaban estos servicios, lo realizaban a un costo muy alto. Por lo tanto fue necesario recrear la placa de forma en que se omitieran las vías.
+- La propia calidad de la placa complicó el hecho de soldar el conector micro-usb, por lo que posteriormente causó una ruptura en el mismo.
+- Debido a que no se consiguió desplegar la pagina web en los servidores de _Heroku_ no fue posible crear la lógica de Back-end para poder controlar el dispositivo de forma remota.
