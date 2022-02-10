@@ -154,7 +154,7 @@ El layout de los botones y demás periféricos del dispositivo es:
 <img src="Imagenes/Layout.png" width="600" margin ="auto">
 </p>
 
-## Conclusiones del proyecto
+## Conclusiones del proyecto :chart_with_upwards_trend:
 
 - Una correcta planeación de los objetivos del proyecto permite la delimitación del mismo, haciendo que su realización sea más posible.
 - El diseño PCB para un sistema embebido requiere de diversas consideraciones, tanto físicas y de funcionamiento como de estandares de producción, para que puedan llegar a ser producidas sin problemas. Estas consideraciones incluyen temas como tamaños de vías, anchos de pista, tamaños de los taladros, grosor del FR4, etc.
