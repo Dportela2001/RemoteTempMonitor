@@ -147,6 +147,12 @@ Después de realizar la soldadura de los elementos en el circuito impreso, se a�
 <img src="Imagenes/ImagenProducto.jpeg" width="600" margin ="auto">
 </p>
 
+El layout de los botones y demás periféricos del dispositivo es:
+
+<p align="center">
+<img src="Imagenes/layout.png" width="600" margin ="auto">
+</p>
+
 ## Conclusiones del proyecto
 
 - Una correcta planeación de los objetivos del proyecto permite la delimitación del mismo, haciendo que su realización sea más posible.
