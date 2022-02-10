@@ -60,6 +60,12 @@ En caso de que se haya completado la carga, el indicador resultante es:
 
 <img src="Imagenes/Placa-cargada.jpeg" height="300" margin="auto">
 
+## Esquemático ESP32
+
+El microprocesador empleado para el proyecto es la ESP32 standalone, que posee una flexibilidad y robustez más que suficiente para los propócitos del mismo. Es posible emplear toda la gama de pines GPIO dependiendo de la necesidad, por ejemplo para lectura o escritura. El esquemático resultante es:
+
+<img src="Imagenes/Esp-Perifericos.png" height="300" margin="auto">
+
 
 
 ## Diseño de caja 
