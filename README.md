@@ -164,3 +164,7 @@ El layout de los botones y demás periféricos del dispositivo es:
 - Los tiempos de manufactura de la placa no fueron los adecuados, por lo que fue imposible el solicitar fabricar las PCB en una empreza extrangera China como JLCPCB, PCBWAY, etc. Esto causo que fuera necesario re inventar la placa para no usar vias entre capas, dado que las empresas locales que prestaban estos servicios, lo realizaban a un costo muy alto. Por lo tanto fue necesario recrear la placa de forma en que se omitieran las vías.
 - La propia calidad de la placa complicó el hecho de soldar el conector micro-usb, por lo que posteriormente causó una ruptura en el mismo.
 - Debido a que no se consiguió desplegar la pagina web en los servidores de _Heroku_ no fue posible crear la lógica de Back-end para poder controlar el dispositivo de forma remota.
+
+https://user-images.githubusercontent.com/85375999/153422038-b12df55a-1030-432a-aa8d-7aa34144cbf2.mp4
+
+
