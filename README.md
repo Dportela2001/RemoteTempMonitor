@@ -36,6 +36,8 @@ A continuación se ve una lista resumida de los elementos más importantes a uti
 
 # Diseño de la pcb
 
+Para llevar a cabo el diseño del circuito embebido, se empleó el programa open source Kikad, donde todos los archivos generados se encuentran en la carpeta **CircuitDesign**, en donde se encuentran dos versiones de la placa. La primera empleando vias para conectar la cara superior con la inferior, que se ve en la carpeta **PCB_Design**. Sin embargo, debido a las limitaciones de tiempo y capacidades de realización fue necesario realizar una modificación cambiando las vias por conexiones mediante pines. Este segundo diseño se encuentra en **PCB_Design_Low_Cost**
+
 ## Zona de potencia
 Como todo circuito electrónico, se requiere de una fuente de potencia para el funcionamiento del mismo. Para esto se planteó fos bloques principales, uno para la regulación de voltage que llega a la ESP32 y sus periféricos, y un bloque de carga para las baterías que alimentan el conjunto. Dichos bloques son:
 
