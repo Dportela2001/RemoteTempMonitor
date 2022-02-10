@@ -107,7 +107,7 @@ El programa diseñado para el dispositivo posee distintas instancias tanto de co
 
 ## Conexión web del dispositivo
 
-Se pretendía realizar la conexión del termómetro con un dispositvo externo con un celular o computadora, con el fin de poder controlar de forma remota las distintas opciones que este ofrece. Sin embargo debido a las limitaciones de tiempo y errores al momento de generar la pagina montada en el servidor, no fue posible terminar de generar esta funcionalidad en el dispositivo. Más si se llego a producir parte del Front-end de esta parte, la cual se encuentra en la branch **Front-RemoteTemp**. La página diseñada es:
+Se pretendía realizar la conexión del termómetro con un dispositvo externo con un celular o computadora, con el fin de poder controlar de forma remota las distintas opciones que este ofrece. Sin embargo debido a las limitaciones de tiempo y errores al momento de generar la pagina montada en el servidor, no fue posible terminar de generar esta funcionalidad en el dispositivo. Más si se llego a producir el Front-end de esta parte, la cual se encuentra en la branch **Front-RemoteTemp**, que incluye el archivo -html-, -css- y -javascrip-. La página diseñada es:
 
 
 <p align="center">
