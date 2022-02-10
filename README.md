@@ -93,6 +93,7 @@ Para poder programar el microprocesador ESP32 se optó por usar el lenguaje **Mi
 - DS18B20 (librería para controlar la sonda de temperatura, ya presente en Micropython)
 
 Para ver en detalle el código empleado para el funcionamiento del termómetro se puede revisar la carpeta **Micropython** en la rama principal.
+Además, se empleó el programa _Mu_ para escribir y subir el código de Micropython directamente a la memoria del ESP32. Otra ventaja de este lenguaje se hace evidente en cuanto a que su subida es veloz al microprocesador, ya que el proceso de compilado del colido ocurre precisamente en este.
 
 ## Distintas instancias del programa del proyecto
 
