@@ -4,7 +4,7 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 
 
 
-## [Descripción no funcional](/CircuitDesign) 
+## Descripción no funcional
 
 - Acoplarse adecuadamente al recipiente empleado.
 - Comunicarse de manera inalámbrica via Wifi o bluetooth. 
@@ -33,7 +33,7 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 ## Dispositivos a emplear
 A continuación se ve una lista resumida de los elementos más importantes a utilizar, con sus respectivos precios, cantidad y tienda sugerida, para una lista más detallada de todos los componentes puede ver el excel **Lista_componentes.xlsx**.
 
-# Diseño de la pcb
+# [Diseño de la pcb](/CircuitDesign) 
 
 Para llevar a cabo el diseño del circuito embebido, se empleó el programa open source Kikad, donde todos los archivos generados se encuentran en la carpeta **CircuitDesign**, en donde se encuentran dos versiones de la placa. La primera empleando vias para conectar la cara superior con la inferior, que se ve en la carpeta **PCB_Design**. Sin embargo, debido a las limitaciones de tiempo y capacidades de realización fue necesario realizar una modificación cambiando las vias por conexiones mediante pines. Este segundo diseño se encuentra en **PCB_Design_Low_Cost**
 
