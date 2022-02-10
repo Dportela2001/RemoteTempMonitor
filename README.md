@@ -86,6 +86,12 @@ Es posible entonces realizar el diseño de la PCB y el ruteo de los caminos  par
 <img src="Imagenes/Placa-disenio.png" height="400" margin="auto">
 </p>
 
+## Software del dispositivo 
+
+Para poder programar el microprocesador ESP32 se optó por usar el lenguaje **MicroPython**, por su facilidad de sintaxis, versatilidad y cantidad de librerias disponibles para facilitar el proceso de codificación. Algunas de las librerías empleadas son:
+
+- SH1106 (librería para controlar la pantalla OLED, extraida de: https://github.com/robert-hh/SH1106)
+- DS18B20 (librería para controlar la sonda de temperatura, ya presente en Micropython)
 
 ## Diseño de caja 
 
