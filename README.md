@@ -105,6 +105,10 @@ El programa diseñado para el dispositivo posee distintas instancias tanto de co
    </tr>
 </table>
 
+## Conexión web del dispositivo
+
+Se pretendía realizar la conexión del termómetro con un dispositvo externo con un celular o computadora, con el fin de poder controlar de forma remota las distintas opciones que este ofrece. Sin embargo debido a las limitaciones de tiempo y errores al momento de generar la pagina montada en el servidor, no fue posible terminar de generar esta funcionalidad en el dispositivo. Más si se llego a producir parte del Front-end de esta parte, la cual se encuentra en la branch 
+
 ## Diseño de caja 
 
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
