@@ -150,7 +150,7 @@ Después de realizar la soldadura de los elementos en el circuito impreso, se a�
 El layout de los botones y demás periféricos del dispositivo es:
 
 <p align="center">
-<img src="Imagenes/layout.png" width="600" margin ="auto">
+<img src="Imagenes/Layout.png" width="600" margin ="auto">
 </p>
 
 ## Conclusiones del proyecto
