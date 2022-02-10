@@ -165,6 +165,15 @@ El layout de los botones y demás periféricos del dispositivo es:
 - La propia calidad de la placa complicó el hecho de soldar el conector micro-usb, por lo que posteriormente causó una ruptura en el mismo.
 - Debido a que no se consiguió desplegar la pagina web en los servidores de _Heroku_ no fue posible crear la lógica de Back-end para poder controlar el dispositivo de forma remota.
 
+# Videos de prueba de funcionamiento
 https://user-images.githubusercontent.com/85375999/153422038-b12df55a-1030-432a-aa8d-7aa34144cbf2.mp4
 
+
+
+https://user-images.githubusercontent.com/85375999/153430220-765915c4-69fb-4bd9-bc61-4cbe634cb242.mp4
+
+
+
+
+https://user-images.githubusercontent.com/85375999/153430800-7f2c6cfe-6833-4663-b4ba-db0c7dcf290a.mp4
 
