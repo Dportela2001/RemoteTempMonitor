@@ -99,9 +99,9 @@ Para ver en detalle el código empleado para el funcionamiento del termómetro s
 El programa diseñado para el dispositivo posee distintas instancias tanto de configuración como de funcionamiento, que se encuentran en las siguientes imagenes: 
 <table>
   <tr>
-      <td><img src="Imagenes/Configuracion3.png" margin="auto"></td>
-      <td><img src="Imagenes/Configuracion2.png" margin="auto"></td>
-      <td><img src="Imagenes/Configuracion1.png" margin="auto"></td>
+      <td><img src="Imagenes/Configuracion3.jpeg" margin="auto"></td>
+      <td><img src="Imagenes/Configuracion2.jpeg" margin="auto"></td>
+      <td><img src="Imagenes/Configuracion1.jpeg" margin="auto"></td>
    </tr>
 </table>
 
