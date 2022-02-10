@@ -116,7 +116,7 @@ Se pretendía realizar la conexión del termómetro con un dispositvo externo co
 </p>
 
 
-## Diseño de caja 
+## [Diseño de caja](/Box-Design) :package:
 
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
 Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
