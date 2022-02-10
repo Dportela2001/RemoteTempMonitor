@@ -4,10 +4,11 @@
   "info": {
     "singularName": "temp-data",
     "pluralName": "temp-datas",
-    "displayName": "temp-data"
+    "displayName": "temp-data",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
