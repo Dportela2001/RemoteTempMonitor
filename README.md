@@ -107,7 +107,7 @@ El programa diseñado para el dispositivo posee distintas instancias tanto de co
 
 ## Conexión web del dispositivo
 
-Se pretendía realizar la conexión del termómetro con un dispositvo externo con un celular o computadora, con el fin de poder controlar de forma remota las distintas opciones que este ofrece. Sin embargo debido a las limitaciones de tiempo y errores al momento de generar la pagina montada en el servidor, no fue posible terminar de generar esta funcionalidad en el dispositivo. Más si se llego a producir el Front-end de esta parte, la cual se encuentra en la branch **Front-RemoteTemp**, que incluye el archivo -html-, -css- y -javascrip-. La página diseñada es:
+Se pretendía realizar la conexión del termómetro con un dispositvo externo con un celular o computadora, con el fin de poder controlar de forma remota las distintas opciones que este ofrece. Sin embargo debido a las limitaciones de tiempo y errores al momento de generar la pagina montada en el servidor, no fue posible terminar de generar esta funcionalidad en el dispositivo. Más si se llego a producir el Front-end de esta parte, la cual se encuentra en la branch **Front-RemoteTemp**, que incluye el archivo _html_, _css_ y _javascrip_. La página diseñada es:
 
 
 <p align="center">
@@ -147,6 +147,7 @@ Después de realizar la soldadura de los elementos en el circuito impreso, se a�
 <img src="Imagenes/ImagenProducto.jpeg" width="600" margin ="auto">
 </p>
 
-## Más detalles
-Para más detalles del proyecto, vaya a cada una de las carpetas del proyecto y ahí verá información de lo que existe en cada carpeta.
+## Conclusiones del proyecto
 
+- Una correcta planeación de los objetivos del proyecto permite la delimitación del mismo, haciendo que su realización sea más posible.
+- El diseño PCB para un sistema embebido requiere de diversas consideraciones, tanto físicas y de funcionamiento como de estandares de producción, para que puedan llegar a ser producidas sin problemas. Estas consideraciones incluyen temas como tamaños de vías, anchos de pista, tamaños de los taladros, grosor del FR4, etc.
