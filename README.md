@@ -62,7 +62,7 @@ Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando par
 
 Para conveniencia del usuario, se decidió agregar un conector tipo micro-usb B como conector para realizar la carga del dispositivo. Además cuando el dispositivo está sin carga se indicará con un led rojo como se observa a continuación:
 
-<p align="center">
+<p align="center" transform = rotate(90)>
 <img src="Imagenes/Placa-descargada.jpeg" height="300" margin="auto">
 </p>
   
