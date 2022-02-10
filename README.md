@@ -48,28 +48,37 @@ Como todo circuito electrónico, se requiere de una fuente de potencia para el f
 ## Regulador de Voltaje
 Dado que la tensión que entregan las baterías de Litio es de 4.2V, es necesario agregar el integrado MIC37303YME, que permite entregar la tensión deseada de 3.3v a la entrada de la ESP32. El esquemático empleado es el siguiente:
 
+<p align="center">
 <img src="Imagenes/Regulador-Voltaje.png" width="600" margin="auto">
+</p>
 
 ## Cargador de Baterías 
 
 Evidentemente las baterias empleadas requieren ser cargadas de vez en cuando para que el sistema funcione. Por ello se agregó el integrado TP4056 con el circuito de la imagen, para realizar esta operación y así mismo proveer de leds guía de cargado y descargado.
 
+<p align="center">
 <img src="Imagenes/Cargador-Bateria.png" width="600" margin="auto">
+</p>
 
 Para conveniencia del usuario, se decidió agregar un conector tipo micro-usb B como conector para realizar la carga del dispositivo. Además cuando el dispositivo está sin carga se indicará con un led rojo como se observa a continuación:
 
+<p align="center">
 <img src="Imagenes/Placa-descargada.jpeg" height="300" margin="auto">
-
+</p>
+  
 En caso de que se haya completado la carga, el indicador resultante es: 
 
+<p align="center">
 <img src="Imagenes/Placa-cargada.jpeg" height="300" margin="auto">
+</p>
 
 ## Esquemático ESP32
 
 El microprocesador empleado para el proyecto es la ESP32 standalone, que posee una flexibilidad y robustez más que suficiente para los propócitos del mismo. Es posible emplear toda la gama de pines GPIO dependiendo de la necesidad, por ejemplo para lectura o escritura. El esquemático resultante es:
 
+<p align="center">
 <img src="Imagenes/Esp-Perifericos.png" height="600" margin="auto">
-
+</p>
 
 
 ## Diseño de caja 
@@ -77,7 +86,9 @@ El microprocesador empleado para el proyecto es la ESP32 standalone, que posee u
 Con el fin de realizar un empaquetado para el termómetro, se realizó el diseño de una caja en madera con corte laser mediante el programa de CorelDraw. El objetivo es que esta  proteja el circuito del termómetro como tal, así como proveerle una mejor apariencia estética. 
 Para el diseño se emplearon las medidas tomadas directamente del diseño obtenido de la pcb en Kicad:
 
+<p align="center">
 <img src="Imagenes/disenoPCB.png" width="600" margin="auto">
+</p>
 
 Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los tamaños reales de la plata. Se tienen en cuenta elementos que deben ser visibles al usuario como:
 
@@ -90,15 +101,17 @@ Entonces se planea el diseño de tal forma de que haya cierta tolerancia a los t
 
 El resultado del diseño se encuentra en la sección **Box-Design**, donde se encuentran tanto los archivos generados en formatos .pdf y .svg (archivo de gráficos escalables), como el archivo original para ser abierto en el programa CorelDraw. La previsualización resulta:
 
+<p align="center">
 <img src="Imagenes/Caja-DisenoFinal.jpeg" width="600" margin ="auto">
-
+</p>
 
 ## Dispositivo resultante 
 
 Después de realizar la soldadura de los elementos en el circuito impreso, se añadieron así mismo los periféricos como la pantalla OLED, el Buzzer y la sonda de temperatura. El dispositivo físico final es el que se ve a continuación:
 
+<p align="center">
 <img src="Imagenes/ImagenProducto.jpeg" width="600" margin ="auto">
-
+</p>
 
 ## Más detalles
 Para más detalles del proyecto, vaya a cada una de las carpetas del proyecto y ahí verá información de lo que existe en cada carpeta.
