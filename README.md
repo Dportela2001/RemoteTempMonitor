@@ -30,7 +30,7 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 
 ![Bloques](Imagenes/BlockDiagram.png)
 
-## Dispositivos a emplear
+## Dispositivos a emplear :page_facing_up:
 A continuación se ve una lista resumida de los elementos más importantes a utilizar, con sus respectivos precios, cantidad y tienda sugerida, para una lista más detallada de todos los componentes puede ver el excel [**Lista_componentes.xlsx**](/Lista_componentes.xlsx).
 
 # [Diseño de la pcb](/CircuitDesign):bulb:
