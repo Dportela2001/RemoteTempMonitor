@@ -4,7 +4,7 @@ Dispositivo embebido enfocado a monitorear y guiar al usuario en la creación de
 
 
 
-## [Descripción no funcional](/RemoteTempMonitor/tree/main/CircuitDesign) 
+## [Descripción no funcional](/main/CircuitDesign) 
 
 - Acoplarse adecuadamente al recipiente empleado.
 - Comunicarse de manera inalámbrica via Wifi o bluetooth. 
