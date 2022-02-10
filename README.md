@@ -80,6 +80,12 @@ El microprocesador empleado para el proyecto es la ESP32 standalone, que posee u
 <img src="Imagenes/Esp-Perifericos.png" height="600" margin="auto">
 </p>
 
+Es posible entonces realizar el diseño de la PCB y el ruteo de los caminos  para generar los archivos gerber y enviarlos a impresión en un local dedicado a esta labor. El sieño obtenido finalmente después de añadir además las conexiones entre capas es:
+
+<p align="center">
+<img src="Imagenes/Placa-disenio.png" height="600" margin="auto">
+</p>
+
 
 ## Diseño de caja 
 
