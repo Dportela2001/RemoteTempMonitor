@@ -41,8 +41,10 @@ Para llevar a cabo el diseño del circuito embebido, se empleó el programa open
 ## Zona de potencia
 Como todo circuito electrónico, se requiere de una fuente de potencia para el funcionamiento del mismo. Para esto se planteó fos bloques principales, uno para la regulación de voltage que llega a la ESP32 y sus periféricos, y un bloque de carga para las baterías que alimentan el conjunto. Dichos bloques son:
 
+<p align="center">
 <img src="Imagenes/alimentacion-regulacion.jpg" width="600" margin="auto">
-
+</p>
+  
 ## Regulador de Voltaje
 Dado que la tensión que entregan las baterías de Litio es de 4.2V, es necesario agregar el integrado MIC37303YME, que permite entregar la tensión deseada de 3.3v a la entrada de la ESP32. El esquemático empleado es el siguiente:
 
